@@ -1,0 +1,24 @@
+time:--02/06/2023 14:55:21
+channel_size:--three
+deep_supervision:--True
+dataset:--NUAA-SIRST
+mode:--TXT
+test_size:--0.5
+root:--dataset/
+suffix:--.png
+split_method:--50_30_20
+workers:--4
+in_channels:--3
+base_size:--512
+crop_size:--480
+epochs:--350
+start_epoch:--0
+train_batch_size:--4
+test_batch_size:--4
+min_lr:--1e-05
+optimizer:--Adagrad
+weightDecay:--0.0001
+scheduler:--CosineAnnealingLR
+lr:--0.04
+gpus:--1
+save_dir:--NUAA-SIRST_13_06_2023_14_55_21_wDS
